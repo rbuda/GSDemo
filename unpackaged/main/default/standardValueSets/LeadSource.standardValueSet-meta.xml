@@ -2,9 +2,19 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
+        <fullName>Partner Referral</fullName>
+        <default>false</default>
+        <label>Partner Referral</label>
+    </standardValue>
+    <standardValue>
         <fullName>Web</fullName>
         <default>false</default>
         <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Purchased List</fullName>
+        <default>false</default>
+        <label>Purchased List</label>
     </standardValue>
     <standardValue>
         <fullName>Phone Inquiry</fullName>
@@ -12,14 +22,9 @@
         <label>Phone Inquiry</label>
     </standardValue>
     <standardValue>
-        <fullName>Partner Referral</fullName>
+        <fullName>Trade Show</fullName>
         <default>false</default>
-        <label>Partner Referral</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Purchased List</fullName>
-        <default>false</default>
-        <label>Purchased List</label>
+        <label>Trade Show</label>
     </standardValue>
     <standardValue>
         <fullName>Other</fullName>
