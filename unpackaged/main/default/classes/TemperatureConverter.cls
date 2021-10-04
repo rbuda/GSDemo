@@ -1,0 +1,14 @@
+/** 
+* @description Temperature Converter 
+*/
+public class TemperatureConverter { 
+    /** 
+	* @description Farenheit To Celsius 
+	* @return Farenheit To Celsius 
+	* @param fh
+	*/
+    public static Decimal fahrenheitToCelsius(Decimal fh) {
+        Decimal cs = (fh - 32) * 5/9;
+        return cs.setScale(2);
+    }
+}
