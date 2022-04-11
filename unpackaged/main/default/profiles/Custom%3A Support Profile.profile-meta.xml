@@ -2640,6 +2640,9 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2647,6 +2650,21 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CardPaymentMethod-Card Payment Method Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartDeliveryGroup-Cart Delivery Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartItem-Cart Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartTax-Cart Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartValidationOutput-Cart Validation Output Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case %28Support%29 Layout</layout>
@@ -2698,6 +2716,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
@@ -2850,6 +2871,9 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ServiceAppointment-Service Appointment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2869,6 +2893,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SkillRequirement-Skill Requirement Layout</layout>
@@ -2892,6 +2919,9 @@
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>UserProvAccount-User Provisioning Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2899,6 +2929,18 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCart-Cart Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStore-Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Widget__c-Widget Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
@@ -2976,15 +3018,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>ContractLineItem</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Document</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -3112,6 +3145,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AsyncOperationLog</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -3126,6 +3163,10 @@
     <tabVisibilities>
         <tab>standard-AuthorizationFormText</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-BusinessBrand</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Campaign</tab>
@@ -3201,6 +3242,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CreditMemo</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Customer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3300,6 +3345,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-LocationGroup</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Macro</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3396,6 +3445,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Seller</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-ServiceAppointment</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3409,6 +3462,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ServiceTerritory</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Shift</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3567,6 +3624,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSolutions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ModifyMetadata</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

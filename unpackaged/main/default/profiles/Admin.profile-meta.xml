@@ -2687,6 +2687,9 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2694,6 +2697,21 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CardPaymentMethod-Card Payment Method Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartDeliveryGroup-Cart Delivery Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartItem-Cart Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartTax-Cart Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartValidationOutput-Cart Validation Output Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
@@ -2745,6 +2763,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
@@ -2897,6 +2918,9 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ServiceAppointment-Service Appointment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2916,6 +2940,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SkillRequirement-Skill Requirement Layout</layout>
@@ -2939,6 +2966,9 @@
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>UserProvAccount-User Provisioning Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2946,6 +2976,18 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCart-Cart Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStore-Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Widget__c-Widget Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
@@ -2986,6 +3028,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ApiAnomalyEventStore</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AppLauncher</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -3006,6 +3052,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AsyncOperationLog</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -3020,6 +3070,10 @@
     <tabVisibilities>
         <tab>standard-AuthorizationFormText</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-BusinessBrand</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Campaign</tab>
@@ -3098,8 +3152,16 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-CredentialStuffingEventStore</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-CreditMemo</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Customer</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DandBCompany</tab>
@@ -3195,6 +3257,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Location</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LocationGroup</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3298,6 +3364,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ReportAnomalyEventStore</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-ResourceAbsence</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -3308,6 +3378,10 @@
     <tabVisibilities>
         <tab>standard-Scorecard</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Seller</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ServiceAppointment</tab>
@@ -3323,6 +3397,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ServiceTerritory</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-SessionHijackingEventStore</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Shift</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3358,6 +3440,14 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-WebCart</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-WebStore</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-WorkOrder</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -3382,6 +3472,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AIViewInsightObjects</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivateContract</name>
@@ -3707,7 +3801,7 @@
         <name>ManageCertificates</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ManageClearbitIntegration</name>
     </userPermissions>
     <userPermissions>
@@ -3871,7 +3965,7 @@
         <name>ManageUsers</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ManageZapierIntegration</name>
     </userPermissions>
     <userPermissions>
@@ -3901,6 +3995,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>NewReportBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>OmnichannelInventorySync</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -4008,6 +4106,14 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseAddOrderItemSummaryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>UseReturnOrder</name>
     </userPermissions>
     <userPermissions>
@@ -4048,6 +4154,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewDeveloperName</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewEventLogFiles</name>
     </userPermissions>
     <userPermissions>
@@ -4061,6 +4171,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewMLModels</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

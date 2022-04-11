@@ -17,6 +17,7 @@
     <enableLEXExtensionTrailhead>false</enableLEXExtensionTrailhead>
     <enableLEXOnIpadEnabled>false</enableLEXOnIpadEnabled>
     <enableLexEndUsersNoSwitching>false</enableLexEndUsersNoSwitching>
+    <enableLightningPrintableView xsi:nil="true"/>
     <enableNavPersonalizationOptOut>false</enableNavPersonalizationOptOut>
     <enableNoBackgroundNavigations>false</enableNoBackgroundNavigations>
     <enableQuip>false</enableQuip>

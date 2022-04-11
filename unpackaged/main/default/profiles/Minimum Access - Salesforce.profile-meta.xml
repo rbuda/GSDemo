@@ -255,6 +255,27 @@
         <layout>AssetStatePeriod-Asset State Period Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BusinessBrand-Business Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartDeliveryGroup-Cart Delivery Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartItem-Cart Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartTax-Cart Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CartValidationOutput-Cart Validation Output Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer-Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -271,6 +292,27 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReturnOrderItemTax-Return Order Item Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Seller-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Shift-Shift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCart-Cart Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStore-Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Widget__c-Widget Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
@@ -316,6 +358,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AsyncOperationLog</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -329,6 +375,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AuthorizationFormText</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-BusinessBrand</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -401,6 +451,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CreditMemo</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Customer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -489,6 +543,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Location</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LocationGroup</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -584,6 +642,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Seller</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-ServiceAppointment</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -597,6 +659,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ServiceTerritory</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Shift</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

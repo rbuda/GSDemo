@@ -25,7 +25,6 @@
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
-    <enableReportCrtAutoAddPref>false</enableReportCrtAutoAddPref>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
     <enableRequestPrioritySchdl>false</enableRequestPrioritySchdl>
@@ -35,7 +34,6 @@
     <enableSalesforceOutputConnector>false</enableSalesforceOutputConnector>
     <enableSecureImageSharing>false</enableSecureImageSharing>
     <enableSnowflakeOutputConnector>false</enableSnowflakeOutputConnector>
-    <enableSqlLiveDataset>true</enableSqlLiveDataset>
     <enableTableauHyperOutputConnector>false</enableTableauHyperOutputConnector>
     <enableUseOldChartsLookAndFeel>false</enableUseOldChartsLookAndFeel>
     <enableWaveAssetsNewDateVersion>false</enableWaveAssetsNewDateVersion>
@@ -46,6 +44,5 @@
     <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>
     <maxHoursAppInProgress>48</maxHoursAppInProgress>
     <replaceBlankMeasuresWithNulls>false</replaceBlankMeasuresWithNulls>
-    <sonicEnabled>false</sonicEnabled>
     <turnOnTimeZones>false</turnOnTimeZones>
 </AnalyticsSettings>
