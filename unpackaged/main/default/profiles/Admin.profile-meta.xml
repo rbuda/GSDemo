@@ -11,6 +11,10 @@
         <apexClass>Names</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>PassingTests</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
@@ -155,6 +159,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.DiscountPercentage__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
