@@ -1,0 +1,3 @@
+              - name: Run Salesforce Code Analyzer
+                uses: forcedotcom/run-code-analyzer@v1.0.0
+            
